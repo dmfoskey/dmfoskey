@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #d7d7d7;
+    color: black;
+}
+</style>
+
+</head>
+<title> Weather Project</title>
+<body>
+    <script src="../js/main.js">
+</script>
+    <h1> WELCOME</h1>
+    <p> Weather Test Website</p>
+    
+	
+ <h2>Icon Definition</h2>
+	<div align="center">
+<table border="1" width="599" height="134">
+		<tr>
+			<td height="16" width="136" align="center">Icon</td>
+			<td height="16" width="129" align="center">Meaning</td>
+			<td height="16" width="312" align="center">Technical Definition</td>
+		</tr>
+
+    <tr> 
+        <td height="20" width="136" align="center"><img src="../images/clear.png"></td>
+        <td height="2" width="129" align="center">Clear</td>
+        <td height="2" width="312" align="center">Total cloud cover less than 20%</td>
+     </tr>
+
+
+    <tr>
+			<td height="20" width="136" align="center"><img src="../images/cloudy.png"></td>
+            <td height="20" width="129" align="center">Very cloudy</td>
+			<td height="20" width="312" align="center">Total cloud cover less 
+			than 20%</td>
+		</tr>
+  <tr>  
+    <td height="20" width="136" align="center"><img src="../images/rain.png"></td>
+    <td height="20" width="129" align="center">Rain</td>
+			<td height="20" width="312" align="center">Precipitation rate less than 4mm/hr</td>
+		</tr>
+    <tr>
+        <td height="20" width="136" align="center"><img src="../images/ishower.png"></td>
+        <td height="20" width="129" align="center">Isolated Showers</td>
+        <td height="20" width="312" align="center">Precipitation rate less than 4mm/hr less than 60%</td>
+    </tr>
+    <tr>
+        <td height="20" width="136" align="center"><img src="../images/oshower.png"></td> 
+        <td height="20" width="129" align="center">Occasional Showers</td>
+        <td height="20" width="312" align="center">Precipitation rate less than 4mm/hr with cloud cover less than 60%-80% </td>
+    </tr>
+    <tr>  
+        <td height="2" width="136" align="center"><img src="../images/lightrain.png"></td>
+        <td height="2" width="129" align="center">light rain or showers</td>
+        <td height="2" width="312" align="center">Precipitation rate less than 4mm/hr with cloud cover more than 80%</td>
+    </tr>
+    <tr>
+        <td height="2" width="136" align="center"><img src="../images/tsrain.png"></td>
+        <td height="2" width="129" align="center">Thunderstorm</td>
+        <td height="2" width="312" align="center">Lifted Index less than -5 precipitation rate over 4mm/hr</td>
+
+    </tr>
+    <tr>
+         <td height="2" width="136" align="center"><img src="../images/snow.png"></td>
+         <td height="2" width="129" align="center">Snow</td>
+         <td height="2" width="312" align="center">Precipitation rate over 4mm/hr</td>
+     </tr>
+     <tr> 
+        <td height="2" width="136" align="center"><img src="../images/lightsnow.png"></td>                                         </td>
+        <td height="2" width="129" align="center">Light or occassional snow</td>
+        <td height="2" width="312" align="center">Precipitation rate less than 4mm/hr</td>
+     </tr>
+      <tr>
+        <td height="2" width="136" align="center"><img src="../images/rainsnow.png"></td>
+        <td height="2" width="129" align="center">Mixed</td>
+        <td height="2" width="312" align="center">Precipitation type to be ice pellets or freezing rain </td>
+     </tr>
+    <tr>
+        <td height="2" width="136" align="center"><img src="../images/tstorm.png"></td>
+        <td height="2" width="129" align="center"> Thunderstorm possible</td>
+        <td height="2" width="312" align="center">Lifted Index less than -5 with precipitation rate over 4mm/hr</td>
+    </tr>
+     <tr>
+        <td height="2" width="136" align="center"><img src="../images/mcloudy.png"></td>
+        <td height="2" width="129" align="center">cloudy</td>
+        <td height="2" width="312" align="center">Total cloud cover over 80%</td>
+     </tr>
+     <tr>
+        <td height="2" width="136" align="center"><img src="../images/fog.png"></td>
+        <td height="2" width="129" align="center">Foggy</td>
+        <td height="2" width="312" align="center">Relative humidity over 90% with total cloud cover less than 60%</td>
+     </tr>
+     <tr>
+        <td height="2" width="136" align="center"><img src="../images/pcloudy.png"></td>
+        <td height="2" width="129" align="center">Partly cloudy</td>
+        <td height="2" width="312" align="center">Total cloud cover between 20%-60%</td>
+    </tr>
+    <tr>
+        <td height="2" width="136" align="center"><img src="../images/humid.png"></td>
+        <td height="2" width="129" align="center">humid</td>
+        <td height="2" width="312" align="center">A relative humidity of 80%</td>  
+     <tr>
+        <td height="2" width="136" align="center"><img src ="../images/windy.png"></td>
+        <td height="2" width="129" align="center">windy</td>
+        <td height="2" width="312" align="center">Sustained wind speed over 10.8m/s (force 6 or above) </td>
+     </tr>        
+    </tr>
+    <tr>
+		<td width="150"><a target="_blank" href="https://maps.google.com/maps?q=37.419,-122.057&btnG=Search&sc=1&rl=1&spn=0.3,0.3&om=1">Road Map</a></td>
+		<td width="150"><a target="_blank" href="https://maps.google.com/maps?ll=37.419,-122.057&spn=0.05,0.05&t=k&hl=en">Satellite Image</a></td>
+		<td width="150"><a target="_blank" href="https://www.heavens-above.com/allsats.aspx?lat=37.419&lng=-122.057&loc=">Satellite Flyby</a></td>
+	    <td width="150"><a target="_blank" href="https://www.lightpollutionmap.info/#zoom=4.00&lat=37.419&lon=122.057&layers=B0FFFFFFTFFFFFFFFFF">Light Pollution Map</a></td>
+	</tr>
+</table><p class="information" align="center">For more details, please refer to <a href="https://github.com/Yeqzids/7timer-issues/wiki/Wiki">the Wiki</a>.</p><hr><br></div>
+	
+<h2>Getting the forecast thumbnail on your website</h2>
+
+<p>Here is the snippet to include the forecast thumbnail of this location on your website:</p>
+
+<p class="information"><img src="https://www.7timer.info/bin/civil.php?lon=-122.057&lat=37.419&lang=en&ac=0&unit=metric&tzshift=0"></p>
+<tr>
+    <td width="250" align="left"><li>Sunrise: 07:09</li></td>
+    <td width="250" align="left"><li>Sunset: 16:50</li></td>
+</tr>
+<tr>
+    <td width="250" align="left"><li>Moonrise: 01:46</li></td>
+    <td width="250" align="left"><li>Moonset: 13:42</li></td>
+</tr>
+<tr>
+    <td width="250" align="left"><li>Civil twilight begin: 06:36</li></td>
+    <td width="250" align="left"><li>Civil twilight end: 17:23</li></td>
+</tr>
+<tr>
+    <td width="250" align="left"><li>Nautical twilight begin: 06:03</li></td>
+    <td width="250" align="left"><li>Nautical twilight end: 17:56</li></td>
+</tr>
+<tr>
+    <td width="250" align="left"><li>Astronomical twilight begin: 05:32</li></td>
+    <td width="250" align="left"><li>Astronomical twilight end: 18:27</li></td>
+</tr>
+</table>
+    </tr>
+
+    </tr>
+
+  </tr>
+</body>
+
+
+</head>
+
+
+</html>
